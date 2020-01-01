@@ -1,7 +1,7 @@
 # jacoco-subprojects-kotlin-dsl
 
 ## Target
-To have Jacoco test coverage reports configured in a single place for all modules within the project. Enabled only HTML report.
+To have Jacoco test coverage reports configured in a single place for all modules within the project and enabled only HTML report.
 
 ## Solutions
 
@@ -17,8 +17,8 @@ https://github.com/Lingviston/jacoco-subprojects-kotlin-dsl/commit/4a18b6cd16c97
 
 ## Questions
 
-1. Why does it require two afterEvaluate blocks (within subprojects module and within precompiled script)?
-2. Is it a correct approach to achieve the goal?
+1. Why does it require two afterEvaluate blocks (within subprojects block of the root project's build.gradle.kts and within precompiled script testCoverage.gradle.kts)?
+2. Is it correct approach to achieve the goal?
 
 ## Notices
 
