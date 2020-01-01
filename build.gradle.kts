@@ -26,5 +26,7 @@ allprojects {
 }
 
 subprojects {
-    apply(plugin = "testCoverage")
+    afterEvaluate {
+        apply(plugin = "testCoverage")
+    }
 }
